@@ -6,15 +6,15 @@ Download Composer: https://getcomposer.org/
 
 Follow These Steps :
 
-# Create a database locally named portfolio utf8_general_ci
-# Pull Laravel/php project from git provider.
-# Rename .env.example file to .env inside your project root
-# Configure your database inside the .env file and add this line at the end of it "FILESYSTEM_DISK=public"
-# Open the console and cd your project root directory
-# Run composer install if u encounter an error run composer update
-# Run php artisan key:generate
-# Run php artisan migrate
-# Run php artisan storage:link
-# Run php artisan serve and keep that terminal open
-# Open a new terminal and run npm run dev and if you encounter an error run npm install
+ Create a database locally named portfolio utf8_general_ci
+### Pull Laravel/php project from git provider.
+### Rename .env.example file to .env inside your project root
+### Configure your database inside the .env file and add this line at the end of it "FILESYSTEM_DISK=public"
+### Open the console and cd your project root directory
+### Run composer install if u encounter an error run composer update
+### Run php artisan key:generate
+### Run php artisan migrate
+### Run php artisan storage:link
+### Run php artisan serve and keep that terminal open
+### Open a new terminal and run npm run dev and if you encounter an error run npm install
 Now you can now access the project at localhost:8000 :)
