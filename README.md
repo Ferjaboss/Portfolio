@@ -18,73 +18,80 @@ Make sure you have the following installed on your machine:
    ```
    git clone https://github.com/Ferjaboss/Portfolio
    ``` 
-Navigate to the project directory
-Open the project folder:
+2. **Navigate to the project directory**  
+Open the project folder: (in my case when i cloned the repo i got portfolio-master yours might be different 
 
-bash
-Copy code
-cd your-project-folder
-Configure the .env file
+```
+cd Portfolio-master
+```
+
+3. **Configure the .env file**
 Rename .env.example to .env:
 
-bash
-Copy code
+```
 mv .env.example .env
-Configure the Database
+```
+
+4. **Configure the Database**
 Open the .env file and configure your database settings:
 
-env
-Copy code
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
-Add File System Disk Configuration
+```
+
+5. **Add File System Disk Configuration**
 At the end of the .env file, add:
 
-env
-Copy code
+```
 FILESYSTEM_DISK=public
-Install Node Modules
+```
+
+6. **Install Node Modules**
 Run the following command to install the required node packages:
 
-bash
-Copy code
+```
 npm install
-Install PHP Dependencies
+```
+
+7. **Install PHP Dependencies**
 Use Composer to install all required PHP packages:
 
-bash
-Copy code
+```
 composer install
-Generate the Application Key
+```
+
+8. **Generate the Application Key7.**
 Run the Artisan command to generate the application key:
 
-bash
-Copy code
+```
 php artisan key:generate
-Run Migrations
+```
+
+9. **Run Migrations**
 Apply the database migrations:
 
-bash
-Copy code
+```
 php artisan migrate
-Create a Symlink for Storage
+```
+
+10. **Create a Symlink for Storage**
 Run the following command to create a symbolic link for storage:
 
-bash
-Copy code
+```
 php artisan storage:link
-Run Development Servers
+```
+
+11. **Run Development Servers**
 
 First, start the Vite development server:
-bash
-Copy code
+```
 npm run dev
-Then, start the Laravel development server:
-bash
-Copy code
+<!---Then, start the Laravel development server:-->
 php artisan serve
+```
 Your Laravel portfolio project should now be up and running. Visit http://localhost:8000 to see it in action!
