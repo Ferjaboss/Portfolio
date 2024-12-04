@@ -91,7 +91,9 @@ php artisan storage:link
 First, start the Vite development server:
 ```
 npm run dev
-<!---Then, start the Laravel development server:-->
+```
+Then, start the Laravel development server:
+```
 php artisan serve
 ```
 Your Laravel portfolio project should now be up and running. Visit http://localhost:8000 to see it in action!
