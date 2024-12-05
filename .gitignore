@@ -2,6 +2,8 @@
 /node_modules
 /public/build
 /public/hot
+/public/img/bechir.png
+/public/img/me.jpg
 /public/storage
 /storage/*.key
 /vendor
