@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Bechir Ferjani') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 <body>
-<div class="bg-slate-200 dark:bg-slate-900">
+<div class="bg-slate-200 dark:bg-slate-900 scroll-smooth">
         {{-- Header --}}
         <x-frontend.header></x-frontend.header>
         <main class="min-h-screen">

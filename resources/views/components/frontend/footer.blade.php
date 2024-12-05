@@ -1,7 +1,7 @@
 
 <footer class="bg-white dark:bg-gray-900">
     <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="/">Bortfolio™</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2024 <a href="/">Bechir Ferjani</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="https://www.facebook.com/Ferjaboss" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
