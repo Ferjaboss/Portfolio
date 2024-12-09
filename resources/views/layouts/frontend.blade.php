@@ -17,13 +17,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('all.min.css') }}">
-        <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+    <link rel="stylesheet" href="{{ asset('all.min.css') }}">
+    <link rel="icon" type="image/x-icon" href={{ asset('/img/logo.ico') }}>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
+</head>
+
 <body>
-<div class="bg-slate-200 dark:bg-slate-900 scroll-smooth">
+    <div class="bg-slate-200 dark:bg-slate-900 scroll-smooth">
         {{-- Header --}}
         <x-frontend.header></x-frontend.header>
         <main class="min-h-screen">

@@ -147,7 +147,7 @@
                 </div>
                 </div>
             <div class="flex flex-1 justify-end items-center h-full mt-8 md:mt-0">
-                <img class="rounded-full w-10/12" src="/img/hero.jpg" alt="Hero img" />
+                <img class="rounded-full w-10/12" src={{ asset('img/hero.jpg') }} alt="Hero img" />
             </div>
         </div>
     </div>

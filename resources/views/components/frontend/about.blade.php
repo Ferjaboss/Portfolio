@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div class="flex flex-col xl:flex-row gap-24">
             <div>
-                <img class="object-contain rounded-full bg-gray-600" src="/img/bechir.png"
+                <img class="object-contain rounded-full bg-gray-600" src={{ asset("/img/bechir.png")}}
                     alt="About img" />
             </div>
             <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
