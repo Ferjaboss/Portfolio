@@ -22,7 +22,7 @@ Make sure you have the following installed on your machine:
 Open the project folder: (in my case when i cloned the repo i got portfolio-master yours might be different 
 
 ```
-cd Portfolio-master
+cd Portfolio
 ```
 
 3. **Configure the .env file**
